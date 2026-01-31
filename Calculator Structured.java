@@ -22,6 +22,9 @@ public class main{
             case '*':
                 result = multiplication(num1, num2);
                 break;
+            case '-':
+                result = subtraction(num1, num2);
+                break;
             default:
                 System.out.println("Invalid Operator!");
         }
@@ -33,5 +36,8 @@ public class main{
     }
     public static double multiplication(double num1, double num2){
         return num1 * num2;
+    }
+    public static double subtraction(double num1, double num2){
+        return num1 - num2;
     }
 }
